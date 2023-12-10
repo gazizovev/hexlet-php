@@ -12,5 +12,7 @@
             "email": "egenius.gaz@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "tightenco/collect": "^9.52"
+    }
 }
