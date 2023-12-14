@@ -1,6 +1,9 @@
 {
     "name": "evgeniigazizov/hexlet-php",
     "description": "first php project",
+    "scripts": {
+	"phpcs": "phpcs"
+    },
     "autoload": {
         "psr-4": {
             "Evgeniigazizov\\HexletPhp\\": "src/"
@@ -17,5 +20,8 @@
     ],
     "require": {
         "tightenco/collect": "^9.52"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.8"
     }
 }
